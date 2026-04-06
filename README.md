@@ -22,11 +22,8 @@
 ## 🚀 クイックスタート
 
 ### 前提条件
-完全な可視化サポートのため、ローカル環境に以下がインストールされていることを推奨します。
-- Python 3.x
-- `pip install diagrams`
-- `brew install graphviz` (macOSの場合)
-- Terraform CLI
+手動で依存パッケージをインストールする必要はありません！
+システムに **Python 3.x** と **Terraform CLI** 実行環境があれば、画像を描画するためのシステム依存（`pip install diagrams` や `graphviz` など）は、各 Agent がタスク実行時に自動的にチェックしてインストールします。
 
 ### アプリケーションの実行方法
 

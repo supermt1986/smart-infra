@@ -1,0 +1,19 @@
+# Git ignored files
+
+# Output folder content exception
+output/*
+!output/.gitkeep
+!output/**/.gitkeep
+
+# Ignore macOS tracking files
+.DS_Store
+
+# Ignore python cache
+__pycache__/
+*.pyc
+
+# Ignore terraform auto-generated
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
